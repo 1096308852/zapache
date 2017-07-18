@@ -8,8 +8,8 @@ ExtendedStatus On
 </location>
 
 下载解压zapache-master.zip
-wget https://github.com/lorf/zapache/archive/master.zip
-unzip zapache-master.zip
+wget https://codeload.github.com/1096308852/zapache/zip/master
+unzip master
 cd zapache-master
 mkdir /usr/local/zabbix/scripts
 cp zapache /usr/local/zabbix/scripts/

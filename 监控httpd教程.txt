@@ -25,8 +25,8 @@ service zabbix_agentd restart
 /usr/local/zabbix/bin/zabbix_get -s 192.168.6.100 -p 10050 -k zapache[ping]
 
 
-通过浏览器导入模板名字为zapache-template.xml  Template App Apache Web Server zapache
-
+通过浏览器导入模板文件名字为zapache-template.xml 显示名为：Template App Apache Web Server zapache
+再添加到被监控主机上
 
 上面的zapache默认是监控80端口的 
 如果想监控其他端口可以修改zapache文件的
